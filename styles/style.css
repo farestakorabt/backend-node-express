@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: brown;
+  font-size: 2vw;
+}
+
+#kabylie {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#kabylie img {
+  width: 100%;
+}
+/* #kabylie:hover{
+    transform: rotate(90deg);
+} */
+
+/*
+
+:pseudo-classe
+
+:hover permet de définir un style différent lorsqu'on surpasse l'élément avec la souris
+
+parent > child : le chevron appelle les enfants direct
+
+parent child : on cherche la descendance 
+
+*/
