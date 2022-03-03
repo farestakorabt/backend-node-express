@@ -25,7 +25,10 @@ app.use(
   "/styles",
   express.static("C:/Users/fares/OneDrive/Bureau/backend-node-express/styles/")
 );
-app.use("/images", express.static("C:/Users/fares/OneDrive/Bureau/backend-node-express/images/"));
+app.use(
+  "/images",
+  express.static("C:/Users/fares/OneDrive/Bureau/backend-node-express/images/")
+);
 
 // start server & listen to the PORT (6300)
 app.listen(PORT, () => {
